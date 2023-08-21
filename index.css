@@ -1,0 +1,62 @@
+body{
+    background-color: aliceblue;
+font-size: large;
+    font-style: italic;
+    padding: 0;
+    margin:0;
+    height: 100vh;
+}
+html{
+    scroll-behavior: smooth;
+}
+.gift{
+    font-style: italic;
+    color: plum;
+}
+header{
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(230, 230, 250, 0.285);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+    top: 0%;
+    border: 1px solid transparent;
+}
+nav ul{
+    list-style-type: none;
+    display: inline-flex;
+    margin-right: 60%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: all ease-in 300ms;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    text-decoration: none;
+  color: black;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 7px blue;
+}
+img{
+    height:80%;
+    width: 30%;
+    
+}
+.treasure{
+margin-top: 100px;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur (10px);
+    bottom: 0;
+    z-index: 3;
+    margin-top: 10px;
+    background-color: rgba(230, 230, 250, 0.466);
+}
